@@ -45,6 +45,7 @@ Use `KISS_WS2812B` type to control the LED, it consists of:
     - `r` member stands for the amount of red in the color.
     - `g` member stands for the amount of green in the color.
     - `b` member stands for the amount of blue in the color.
+
     Any of these members can have values in the range from 0 to 255. The higher the values, the brighter the color, thus `Color {0, 0, 0}` stands for black and is identical to turning the specific LED off.
 
     More about the RGB color model [here](https://en.wikipedia.org/wiki/RGB_color_model).

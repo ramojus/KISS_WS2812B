@@ -14,7 +14,7 @@ There are a lot of Arduino libraries that allow to control single-wire-based LED
 - [Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel)
 - [TinyWS2812B](https://github.com/derAndroidPro/TinyWS2812B) (this one being the most simple and readable I could find)
 
-Most of these libraries seem overcomplicated and are hard to read. That and a desire to understand Arduino better have led me to create my own library that hopefully doesn't suffer from these issues.
+Most of these libraries, to me, seem a bit overcomplicated and are hard to read. That and a desire to understand Arduino better have led me to create my own library that hopefully doesn't suffer from these issues.
 All this said, having the libraries mentioned above as a reference helped me a lot when creating this library.
 
 ## Installation
@@ -80,6 +80,9 @@ void loop() {
     leds.send_colors(colors);
 }
 ```
+
+## Contributing and the future of this project
+I will abandon this project as it was made with Arduino that I have borrowed from university and I probably don't have a deep enough passion for Arduino to ever buy one for myself. I do, however, plan to accept PRs if there will ever be any. PRs that follow the existing code style and don't use unnecessary macros should be accepted.
 
 ## Licence
 [MIT](./LICENSE)

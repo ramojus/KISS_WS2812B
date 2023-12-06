@@ -41,7 +41,7 @@ inline volatile byte *get_port(byte port_id) {
 }
 
 KISS_WS2812B::KISS_WS2812B(byte pin, unsigned int num_leds) {
-    num_leds = num_leds;
+    this->num_leds = num_leds;
     pin_mask = digitalPinToBitMask(pin);
     port_id = digitalPinToPort(pin);
 

@@ -1,5 +1,5 @@
 # [KISS](https://en.wikipedia.org/wiki/KISS_principle) library for WS2812B
-Arduino library for WS2812B -- and potentially similar single-wire-based LED pixels -- that is:
+Arduino library for WS2812B – and potentially similar single-wire-based LED pixels – that is:
 - Small
 - Simple to use
 - Easy to read and understand, thus fix and extend
